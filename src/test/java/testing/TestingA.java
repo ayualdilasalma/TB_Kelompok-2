@@ -5,10 +5,31 @@
  */
 package testing;
 
+import com.kelompok2.tugasbesar.rkppl.A;
+
 /**
  *
  * @author dilacim
  */
 public class TestingA {
+    
+    private A a;
+
+    @Before
+    public void awalTest() {
+        a = new A();
+        System.out.println("Mengawali Testing");
+    }
+    
+    @Test
+    public void testNull() {
+        assertNull("Tidak boleh null", a.add(0, 1));
+    }
+    
+    @Test
+    public void testNotEquals() {
+        assertNotEquals("Tidak sama", a.add(3, 4), a.add(4, 3));
+    }
+    
     
 }
