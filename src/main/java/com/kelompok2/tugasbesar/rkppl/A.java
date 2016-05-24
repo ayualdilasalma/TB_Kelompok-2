@@ -27,7 +27,7 @@ public class A implements AddAndSubInterface {
 
     @Override
     public String toString() {
-        return "toString di kelas A";
+        return "toString di kelas " + getClass().getSimpleName();
     }
     
 }
