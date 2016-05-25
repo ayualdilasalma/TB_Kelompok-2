@@ -6,10 +6,7 @@
 package testing;
 
 import com.kelompok2.tugasbesar.rkppl.A;
-import org.junit.After;
-import static org.junit.Assert.*;
-import org.junit.Before;
-import org.junit.Test;
+
 /**
  *
  * @author dilacim
