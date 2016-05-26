@@ -6,6 +6,9 @@
 package com.kelompok2.tugasbesar.rkppl;
 
 /**
+ * <h1>Interface AddAndSub</h1>
+ * Kelas ini merupakan kelas interface yang mendefinisikan
+ * dua method abstrak yaitu method add dan sub
  *
  * @author ayu aldila salma
  */
