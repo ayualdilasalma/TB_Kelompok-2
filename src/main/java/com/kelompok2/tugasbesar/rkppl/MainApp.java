@@ -13,7 +13,5 @@ public class MainApp {
 
     public static void main(String[] args) {
         D d = new D();
-        d.pow(0, 0);
-        
     }
 }
