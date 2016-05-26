@@ -9,7 +9,7 @@ package com.kelompok2.tugasbesar.rkppl;
  *
  * @author RIZQON SIDIK MAULANA
  */
-public class C {
+public class C extends Math {
     private double n1;
     private double n2;
 
