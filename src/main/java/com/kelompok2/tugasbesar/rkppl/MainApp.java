@@ -12,6 +12,18 @@ package com.kelompok2.tugasbesar.rkppl;
 public class MainApp {
 
     public static void main(String[] args) {
+        int n;
+        int n1;
+        int n2;
+        
+        n = 7;
+        n1 = 8;
+        n2 = 9;
+
         D d = new D();
+        System.out.println(d.pow(n1, n2));
+        System.out.println(d.mul(n1, n2));
+        System.out.println(d.div(n1, n2));
+        System.out.println(d.toString());
     }
 }
