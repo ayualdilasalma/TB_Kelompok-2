@@ -11,11 +11,15 @@ package com.kelompok2.tugasbesar.rkppl;
  */
 public class Math {
 
+    //Method mod untuk menghitung sisa dari pembagian n1 dan n2
     public int mod(int n1, int n2) {
+        //mengembalikan modulus dari n1 dan n2
         return n1 % n2;
     }
 
+    //Method sqrt untuk menghitung akar dari n
     public double sqrt(double n) {
+        //mengembalikan akar dari n
         return java.lang.Math.sqrt(n);
     }
 }
