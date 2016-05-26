@@ -31,5 +31,23 @@ public class MainApp {
 
         //Instansiasi Kelas C
         C c = new C();
+        //Menentukan nilai variable n1 dan n2 pada Kelas C
+        c.setN1(n1);
+        c.setN2(n2);
+        //Pemanggilan method add pada Kelas C
+        System.out.println(c.add());
+        //Pemanggilan method sub pada Kelas C
+        System.out.println(c.sub());
+        //Pemanggilan method mul pada Kelas C
+        System.out.println(c.mul());
+        //Pemanggilan method div pada Kelas C
+        System.out.println(c.div());
+        //Pemanggilan method mod pada Kelas C
+        System.out.println(c.mod(n1, n2));
+        //Pemanggilan method sqrt pada Kelas C
+        System.out.println(c.sqrt(n));
+        //Pemanggilan method toString pada Kelas C
+        System.out.println(c.toString());
+        System.out.println("");
     }
 }
