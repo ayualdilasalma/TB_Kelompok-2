@@ -9,7 +9,7 @@ package com.kelompok2.tugasbesar.rkppl;
  *
  * @author Rifki
  */
-public interface PowInterface {
+public interface PowInterface extends MulAndDivInterface {
     
     double pow(double n1, double n2);
     
