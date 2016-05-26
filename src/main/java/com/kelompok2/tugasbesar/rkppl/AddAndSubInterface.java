@@ -7,7 +7,7 @@ package com.kelompok2.tugasbesar.rkppl;
 
 /**
  *
- * @author dilacim
+ * @author ayu aldila salma
  */
 public interface AddAndSubInterface {
     

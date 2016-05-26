@@ -12,27 +12,31 @@ import org.junit.Before;
 import org.junit.Test;
 /**
  *
- * @author dilacim
+ * @author ayu aldila salma
  */
 public class TestingA {
     
     private A a;
 
     @Before
-    public void awalTest() {
+    public void startTest() {
         a = new A();
-        System.out.println("Mengawali Testing");
+        System.out.println("Mengawali Testing Untuk Kelas A");
     }
     
     @Test
     public void testNull() {
-        assertNull("Tidak boleh null", a.add(0, 1));
+        assertNotNull("Tidak boleh null", a.add(0, 0));
     }
     
     @Test
-    public void testNotEquals() {
-        assertNotEquals("Tidak sama", a.add(3, 4), a.add(4, 3));
+    public void testEquals() {
+        assertEquals("Seharusnya bernilai sama", 4, a.sub(7, 3));
     }
     
+    @After
+    public void endTest() {
+        System.out.println("Mengakhiri Testing Untuk Kelas A ");
+    }
     
 }
