@@ -8,7 +8,13 @@ package com.kelompok2.tugasbesar.rkppl;
 /**
  *
  * @author Restu
+ * 
  */
+
 public interface AddAndSubInterface {
+    public int add (int n1,int n2)  ;
+    
     
 }
+
+
