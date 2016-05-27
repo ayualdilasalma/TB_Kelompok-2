@@ -14,7 +14,7 @@ package com.kelompok2.tugasbesar.rkppl;
 //interface ini merupakan pembuatan interface AddAndSubInterface
 public interface AddAndSubInterface {
 
-    public int add(int n1, int n2);
+    public int add(int n1, int n2); // pembuatan method add yang berguna untuk menambahkan nilai n1 dan n2
     public int sub(int n1, int n2);
 
 }
