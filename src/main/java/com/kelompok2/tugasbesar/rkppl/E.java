@@ -12,5 +12,6 @@ import java.util.List;
  * @author Ginan
  */
 public class E {
+    private List dataList;
     
 }
