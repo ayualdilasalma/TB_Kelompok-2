@@ -17,5 +17,14 @@ public class E {
     public E() {
         System.out.println("Ctor di kelas " + getClass().getSimpleName());
     }
+
+    public List getDataList() {
+        return dataList;
+    }
+
+    public void setDataList(List dataList) {
+        this.dataList = dataList;
+    }
+    
     
 }
