@@ -6,8 +6,15 @@
 package com.kelompok2.tugasbesar.rkppl;
 
 /**
- *
- * @author Rifki
+ * Interface PowInterface adalah Interface
+ * yang memiliki Interface induk yaitu MulAndDivInterface,
+ * pada interface PowInterface memiliki 1 method
+ * untuk kelas yang akan mengimplementasikannya, sedangkan
+ * pada Interface MulAndDivInterface ada 2 kelas
+ * yang harus di implementasikan
+ * 
+ * 
+ * @author Muhamad Rifki Nugraha
  */
 public interface PowInterface extends MulAndDivInterface {
     
