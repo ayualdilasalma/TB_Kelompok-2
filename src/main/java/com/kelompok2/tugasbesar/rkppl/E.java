@@ -13,5 +13,9 @@ import java.util.List;
  */
 public class E {
     private List dataList;
+
+    public E() {
+        System.out.println("Ctor di kelas " + getClass().getSimpleName());
+    }
     
 }
