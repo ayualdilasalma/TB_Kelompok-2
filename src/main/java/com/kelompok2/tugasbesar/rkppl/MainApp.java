@@ -5,6 +5,9 @@
  */
 package com.kelompok2.tugasbesar.rkppl;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  *
  * @author Ginan
@@ -49,5 +52,24 @@ public class MainApp {
         //Pemanggilan method toString pada Kelas C
         System.out.println(c.toString());
         System.out.println("");
+        
+        // Instansiasi Kelas E
+        E e = new E();
+        // Membuat list
+        List dataList = new ArrayList();
+        // Menambahkan object kepada dataList
+        dataList.add(c);
+        dataList.add(d);
+        dataList.add(e);
+        // Menentukan nilai dataList pada kelas E
+        e.setDataList(dataList);
+        // Menampilkan isi dataList pada kelas E
+        System.out.println(e.getDataList());
+        // Memanggil method contains pada kelas E
+        System.out.println(e.contains("C"));
+        System.out.println(e.contains("D"));
+        System.out.println(e.contains("E"));
+        //Pemanggilan method toString pada Kelas E
+        System.out.println(e.toString());
     }
 }
