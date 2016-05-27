@@ -26,7 +26,7 @@ public class E {
      * Mengecek apakah dari data yang ada mengandung kata sesuai parameter
      */
     public boolean contains(String n) {
-        return n.contains(n);
+        return this.dataList.toString().contains(n);
     }
 
     /**
