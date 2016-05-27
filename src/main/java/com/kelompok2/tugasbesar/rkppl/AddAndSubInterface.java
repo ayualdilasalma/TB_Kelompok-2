@@ -10,6 +10,8 @@ package com.kelompok2.tugasbesar.rkppl;
  * @author Restu
  *
  */
+
+//interface ini merupakan pembuatan interface AddAndSubInterface
 public interface AddAndSubInterface {
 
     public int add(int n1, int n2);
