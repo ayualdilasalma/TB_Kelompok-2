@@ -7,6 +7,7 @@
 package testing;
 
 import com.kelompok2.tugasbesar.rkppl.B;
+import org.junit.After;
 import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
@@ -28,5 +29,13 @@ public class TestingB {
         double jum = b.mul(4,2);
         assertTrue("Seharusnya benar", jum == 8 );
     }    
-    
+      @Test
+    public void testCase2() {
+        double jum = b.div(10, 2);
+        assertTrue("Seharusnya benar", jum == 5);
+    }  
+   @After
+    public void endTest() {
+        System.out.println("Mengakhiri Testing Untuk Kelas B ");
+    }  
 }
