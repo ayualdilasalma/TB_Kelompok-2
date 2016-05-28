@@ -32,7 +32,11 @@ public class D implements PowInterface {
  */
     @Override
     public double pow(double n1, double n2) {
-       return n1 / n2;
+       double hasil = 1;
+       for (int i = 1; i <= n2; i++){
+           hasil = hasil * n1;
+       }
+       return hasil;
     }
     
 /**  
