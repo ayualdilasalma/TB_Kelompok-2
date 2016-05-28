@@ -7,7 +7,9 @@
 package testing;
 
 import com.kelompok2.tugasbesar.rkppl.B;
+import static org.junit.Assert.assertTrue;
 import org.junit.Before;
+import org.junit.Test;
 
 /**
  *
@@ -21,5 +23,10 @@ public class TestingB {
         b = new B();
         System.out.println("Mengawali Testing Untuk Kelas B");
     }
+      @Test
+    public void testCase1() {
+        double jum = b.mul(4,2);
+        assertTrue("Seharusnya benar", jum == 8 );
+    }    
     
 }
