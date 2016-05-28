@@ -6,10 +6,19 @@
 
 package testing;
 
+import com.kelompok2.tugasbesar.rkppl.B;
+
 /**
  *
  * @author Badrus Salam
  */
 public class TestingB {
+    private B b;
+    @Before
+     public void startTest() {
+        // inisialisasi objek b dengan tipe objek B
+        b = new B();
+        System.out.println("Mengawali Testing Untuk Kelas B");
+    }
     
 }
